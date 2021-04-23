@@ -1,0 +1,22 @@
+$textWhite : white;
+
+body {
+  background: purple;
+
+  h1 {
+    background-color: crimson;
+    color: $textWhite
+  }
+
+  h2 {
+    background-color: pink;
+    color: $textWhite
+  }
+
+  button {
+    background-color: black;
+    color: $textWhite;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
